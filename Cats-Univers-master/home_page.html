@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+
+    <title>Cats’ universe</title>
+
+    <!--connect css and js files-->
+    <link href="x.css" rel="stylesheet" />
+    <script src="j.js"></script>
+
+    <link rel="shortcut icon" type="image/png" href="img/paws.png" />
+
+    <!--import fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- logo-->
+        <img class="iLogo" src="img/Logo.png" />
+
+        <!--Social networks icons-->
+        <div class="SNetworks">
+            <a href="https://www.instagram.com/mastodon._/?hl=uk" target="_blank"><img src="img/instagram.png" title="Instagram" /></a>
+            <a href="https://www.pinterest.ru/maryanabiyan/" target="_blank"><img src="img/pinterest.png" title="Pinterest" /></a>
+            <a href="https://www.facebook.com/andrew.romaniuk.906" target="_blank"><img src="img/facebook.png" title="Facebook" /></a>
+        </div>
+
+        <!--navbar-->
+        <nav>
+            <ul class="menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">articles</a></li>
+                <li><a href="#">meows</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--first part of the page-->
+        <div class="bigcat">
+            <img src="img/bigcat.jpg" />
+            <div class="ourmission">
+                <h1>"Our mission - safety and protection of animals"</h1>
+                <!--"join lme "Lev" button-->
+                <a href="https://lkplev.com/" target="_blank" title="LME «Lev»">
+                    <div class="JoinLion">
+                        <p>Join LME "Lev"</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!--second part of the page-->
+        <div class="viewarticles">
+            <h2>view our new articles</h2>
+            <!--buttons to switch pages-->
+            <div class="tab">
+                <button class="tablinks" onclick="openArticle(event, 'first')" id="defaultOpen">
+                    <div class="eclipse"></div>
+                </button>
+                <button class="tablinks" onclick="openArticle(event, 'second')">
+                    <div class="eclipse"></div>
+                </button>
+                <button class="tablinks" onclick="openArticle(event, 'third')">
+                    <div class="eclipse"></div>
+                </button>
+            </div>
+
+            <!--tab content -->
+            <div id="first" class="tabcontent">
+                <h3 class="firsttitle">First article</h3>
+                <img src="img/cat_article.jpg" class="ifirst" />
+                <h3 class="secondtitle">Second article</h3>
+                <img src="img/cat_article.jpg" class="isecond" />
+            </div>
+
+            <div id="second" class="tabcontent">
+                <h3 class="firsttitle">Third article</h3>
+                <img src="img/cat_article.jpg" class="ifirst" />
+                <h3 class="secondtitle">Fourth article</h3>
+                <img src="img/cat_article.jpg" class="isecond" />
+            </div>
+
+            <div id="third" class="tabcontent">
+                <h3 class="firsttitle">Fifth article</h3>
+                <img src="img/cat_article.jpg" class="ifirst" />
+                <h3 class="secondtitle">Sixth article</h3>
+                <img src="img/cat_article.jpg" class="isecond" />
+            </div>
+            <script>
+                // show default item
+                document.getElementById("defaultOpen").click();
+            </script>
+        </div>
+
+    </main>
+
+    <footer>
+        <h3>Contact us: murmur@gmail.com</h3>
+
+        <!--"join lme "Lev" button-->
+        <a href="https://lkplev.com/" target="_blank" title="LME «Lev»">
+            <div class="JoinLion">
+                <p>Join LME "Lev"</p>
+            </div>
+        </a>
+    </footer>
+
+</body>
+
+</html>

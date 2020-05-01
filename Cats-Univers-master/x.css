@@ -1,0 +1,335 @@
+/*header*/
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 1530.36px;
+    height: 223.1px;
+
+    background-color: #000000;
+}
+
+/*logo*/
+.iLogo{
+    position: absolute;
+    left: 265px;
+    top: 48px;
+
+    width: 176px;
+    height: 163px;
+
+    box-shadow: 10px 10px 0px 0px #000000;
+
+    z-index: 1;
+}
+
+/*social networks block*/
+.SNetworks{
+    position: absolute;
+    left: 1202px;
+    top: 60px;
+}
+
+.SNetworks img{
+    width: 36.794925px;
+    height: 36.794925px;
+}
+
+/*navbar*/
+.menu {
+    position: absolute;
+    left: 556px;
+    top: 93px;
+
+    width: 903px;
+    height: 69px;
+
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+ul li {
+    float: left;
+    margin-left: 10px;
+    display: inline-block;
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+
+    /*font*/
+    font-family: "Amatic SC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44.2513px;
+    line-height: 56px;
+
+    padding: 5px 15px 5px 15px;
+
+    color: #FFFFFF;
+
+    transition: 0.35s ease-out 0.1s;
+}
+
+/*change background color of buttons on hover*/
+.menu a:hover{
+    background-color: #ef8b1d;
+}
+
+
+
+/*main*/
+main{
+    width: 1530px;
+    height: 1399px;
+
+    position: absolute;
+    left: 0;
+    top: 171px;
+
+    background-color: #0F0E17;
+}
+
+/*first part of the page*/
+.bigcat img{
+    width: 1530px;
+    height: 619px;
+}
+
+.ourmission{
+    position: absolute;
+    left: 58px;
+    top: 244px;
+
+    width: 554px;
+    height: 203px;
+}
+
+.ourmission h1{
+    /*font*/
+    font-family: "Baloo Thambi 2";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+
+    color: white;
+}
+
+.ourmission .JoinLion{
+    position: absolute;
+    left: 155px;
+    top: 215px;
+}
+
+.viewarticles{
+    position: absolute;
+    left: 0px;
+    top: 619px;
+
+    width: 1520px;
+    height: 780px;
+}
+
+.viewarticles h2{
+    position: absolute;
+    width: 415px;
+    height: 60px;
+    left: 590px;
+    top: 0px;
+
+    /*font*/
+    font-family: "Baloo Thambi 2";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 55px;
+    display: flex;
+
+    /*text center*/
+    align-items: center;
+    text-align: center;
+
+    color: #EC9801;
+}
+
+/*style the tab*/
+.tab {
+    position: relative;
+    left: 717px;
+    top: 694px;
+
+    width: 114px;
+    height: 20px;
+
+    overflow: hidden;
+}
+
+/*style the buttons that are used to open the tab content*/
+.tab button {
+    background-color: #72757E;
+
+    float: left;
+    border: none;
+    outline: none
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    height: 20px;
+    width: 20px;
+
+    margin-right: 18px;
+
+    border-radius: 100%;
+}
+
+/*change background color of buttons on hover*/
+.tab button:hover {
+    background-color: #ef8b1d;
+}
+
+/*create an active/current tablink class*/
+.tab button.active {
+    background-color: #ef8b1d;
+}
+
+/*style the tab content*/
+.tabcontent {
+    display: none;
+    animation: fadeEffect 2s;  /*fading effect takes 2 seconds*/
+}
+
+/*from zero to full opacity*/
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*articles images*/
+.ifirst{
+    position: absolute;
+    left: 221px;
+    top: 188px;
+
+    width: 479px;
+    height: 470px;
+}
+
+.isecond{
+    position: absolute;
+    left: 830px;
+    top: 188px;
+
+    width: 479px;
+    height: 470px;
+}
+
+/*articles titles*/
+.firsttitle{
+    position: absolute;
+    width: 479px;
+    height: 60px;
+    left: 221px;
+    top: 67px;
+
+    font-family: "Baloo Thambi 2";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+
+    text-align: center;
+
+    color: #72757E;
+}
+
+.secondtitle{
+    position: absolute;
+    width: 479px;
+    height: 60px;
+    left: 830px;
+    top: 67px;
+
+    font-family: "Baloo Thambi 2";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+
+    text-align: center;
+
+    color: #72757E;
+}
+
+
+
+/*footer*/
+footer{
+    position: absolute;
+    left: 0;
+    top: 1570px;
+
+    background-color: #000000;
+
+    width: 1530px;
+    height: 184px;
+}
+
+footer h3{
+    position: absolute;
+    left: 90px;
+    top: 25px;
+
+    /*font*/
+    font-family: "Amatic SC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    display: flex;
+
+    color: #E5E5E5;
+}
+
+/*"join lme "Lev" button*/
+.JoinLion a{
+    text-decoration: none;
+}
+
+.JoinLion{
+    position: absolute;
+    left: 1155px;
+    top: 63px;
+
+    width: 225px;
+    height: 63px;
+
+    border-radius: 45px;
+
+    background: #ef8b1d;
+}
+
+.JoinLion p{
+    position: absolute;
+    left: 30px;
+    top: -38px;
+
+    font-family: "Amatic SC";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+
+    color: #E5E5E5;
+}
